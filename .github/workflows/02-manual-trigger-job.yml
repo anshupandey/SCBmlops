@@ -2,6 +2,8 @@ name: Manually trigger an Azure Machine Learning job
 
 on:
   push:
+    branches:
+      -main
 
 jobs:
   train:
