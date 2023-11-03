@@ -16,4 +16,4 @@ jobs:
       with:
         creds: ${{secrets.AZURE_CREDENTIALS}}
     - name: Run Azure ML Job
-      run: az ml job create --file src/job.yml --workspace-name  --resource-group scb
+      run: az ml job create --file src/job.yml --workspace-name anshu-aml --resource-group scb
